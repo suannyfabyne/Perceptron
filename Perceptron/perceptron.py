@@ -7,12 +7,6 @@ from sklearn.metrics import accuracy_score
 
 
 def weight_init(num_inputs): 
-    """
-    Função que inicializa os pesos e bias aleatoriamente utilizando numpy
-    Parâmetro: num_inputs - quantidade de entradas X
-    Retorna: w,b - pesos e bias da rede inicializados
-    """
-    ### Insira seu código aqui (~2 linhas)
     w = np.random.random_sample(num_inputs) - 0.5
     return w
 
